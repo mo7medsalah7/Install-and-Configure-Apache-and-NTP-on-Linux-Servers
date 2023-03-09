@@ -1,0 +1,7 @@
+---
+- name: Configure Apache and NTP on Linux servers
+  hosts: webservers
+  become: yes
+  roles:
+    -  ansible_apache_role
+    - ansible_ntp_role

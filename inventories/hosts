@@ -1,0 +1,2 @@
+[webservers]
+itiWebServer ansible_host=192.168.242.177
