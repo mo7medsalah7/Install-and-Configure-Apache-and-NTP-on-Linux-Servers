@@ -12,7 +12,7 @@
 ## How To Use Roles 
 - in `roles/requirements.yml`
 
-`
+```
 roles:
   - src: https://github.com/mo7medsalah7/ansible_apache_role
     scm: git
@@ -20,7 +20,7 @@ roles:
   - src: https://github.com/mo7medsalah7/ansible_ntp_role
     scm: git
     version: main
-` 
+```
 
 # Inventory.
 ## The managed/remote hosts are listed in the file `inventories/hosts`
